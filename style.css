@@ -1,5 +1,5 @@
 span{
-    color: blueviolet;
+    color: rgb(0, 68, 255);
 }
 
 
@@ -16,7 +16,7 @@ section{
 }
 
 .ativo{
-    border-bottom: 3px solid rgb(140, 0, 255);
+    border-bottom: 3px solid rgb(0, 81, 255);
 }
 .textos{
     text-align:center;
