@@ -1,0 +1,31 @@
+span{
+    color: blueviolet;
+}
+
+
+section{
+    padding-top: 30px;
+    background-color:blue (172, 149, 201, 0.586);
+    text-align: center;
+}
+
+.objetivos {
+    font-size: 18px;
+    padding: 18px;
+    border: 0px;
+}
+
+.ativo{
+    border-bottom: 3px solid rgb(140, 0, 255);
+}
+.textos{
+    text-align:center;
+} 
+
+.aba-conteudo{
+    display: none;
+}
+
+.ativa{
+    display: block;
+}
