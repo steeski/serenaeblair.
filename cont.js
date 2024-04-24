@@ -15,14 +15,18 @@ textos[sas].classList.add('ativa');
 }
 
 const contadores = document.querySelectorAll('.contador');
-const tempoObjetivo1 = new Date ('2025-02-01T00:00:00');
-const tempoObjetivo2 = new Date ('2025-02-01T00:00:00');
-const tempoObjetivo3 = new Date ('2024-12-19T00:00:00');
+const tempoObjetivo1 = new Date ('2025-01-17T00:00:00');
+const tempoObjetivo2 = new Date ('2025-01-01T00:00:00');
+const tempoObjetivo3 = new Date ('2024-07-10T00:00:00');
 
-let tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3,];
+let tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3,]
+for(let i = 0; i< contadores.length; i++){
+contadores[i].textContent = CalculaTempo(tempos[i]);
+}
 
+function CalculaTempo(tempoObjetivo) {
 let tempoAtual = new Date();
-let tempoFinal = tempoObjetivo1 - tempoAtual;
+let tempoFinal = tempoObjetivo - tempoAtual;
 
 let segundos = Math.floor(tempoFinal/1000);
 let minutos = Math.floor(segundos/60);
@@ -33,4 +37,5 @@ segundos % 60;
 minutos % 60;
 horas % 24;
 
-contadores[0].textContent = dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
+return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
+}
