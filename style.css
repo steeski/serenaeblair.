@@ -1,4 +1,10 @@
-span{
+body{
+    background-color: blueviolet;
+    color: rgb(168, 60, 60)
+}
+
+
+,span{
     color: rgb(0, 68, 255);
 }
 
