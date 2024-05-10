@@ -20,7 +20,7 @@ const tempoObjetivo2 = new Date ('2025-01-01T00:00:00');
 const tempoObjetivo3 = new Date ('2025-01-15T00:00:00');
 const tempoObjetivo4 = new Date ('2025-02-25T00:00:00');
 
-let tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3,]
+let tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4]
 for(let i = 0; i< contadores.length; i++){
 contadores[i].textContent = CalculaTempo(tempos[i]);
 }
