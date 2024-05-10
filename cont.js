@@ -17,6 +17,7 @@ textos[sas].classList.add('ativa');
 const contadores = document.querySelectorAll('.contador');
 const tempoObjetivo1 = new Date ('2025-01-17T00:00:00');
 const tempoObjetivo2 = new Date ('2025-01-01T00:00:00');
+const tempoObjetivo3 = new Date ('2025-01-15T00:00:00');
 const tempoObjetivo3 = new Date ('2025-02-25T00:00:00');
 
 let tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3,]
